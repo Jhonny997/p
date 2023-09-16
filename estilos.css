@@ -9,7 +9,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: black;
-
 }
 
 /*--------------------*/
@@ -43,7 +42,7 @@ body {
     transform: scale(1.2);
 }
 
-/*-----------*/
+/*------------------------------------------------*/
 .container-navegacao {
     text-align: center;
     padding: 20px;
@@ -63,7 +62,7 @@ body {
     color: #ffffff;
 }
 
-/*-------------------*/
+/*---------QUEM-SOMOS----------*/
 
 .container-quemsomos {
     background-color: #05192a;
@@ -81,13 +80,13 @@ body {
 }
 
 .container-quemsomos .servico:hover {
-    transition: 1.3s;
+    transition: 1.1s;
     transform: scale(1.2);
 }
 
 .container-quemsomos .servico-texto {
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 1.2em;
     color: #81c4ff;
 }
@@ -101,7 +100,7 @@ body {
     font-weight: bold;
 }
 
-/*--------------------*/
+/*-----------------------------------------*/
 footer {
     text-align: center;
     padding: 80px;
@@ -109,7 +108,7 @@ footer {
     color: gray;
 }
 
-/*--------------------------------*/
+/*------------------------------------------*/
 .container-servicos-contatos {
     background-color: #082946;
     padding: 80px;
@@ -138,7 +137,7 @@ footer {
     color: black;
 }
 
-/*-------------------*/
+/*---------SERVICOS----------*/
 .container-servicos {
     background-color: #05192a;
     font-size: 1.1em;
@@ -169,11 +168,36 @@ footer {
     color: white;
 }
 
-.link {
-    text-decoration: none;
-    color: white;
+/*-------------CONTATOS------------------*/
+
+.container-contatos {
+    background-color: #05192a;
+    padding: 80px;
 }
 
-.link:hover {
-    color: #81c4ff;
+.container-contatos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-contatos h3 {
+    font-size: 1.0em;
+    font-weight: 70;
+    width: 20%;
+    margin: auto;
+    color: white;
+    margin-bottom: 17px;
+    border: 1px solid #105088;
+    background-color: #04233f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container-contatos .contatos {
+    display: block;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #7cc2ff;
+    margin-bottom: 20px;
 }

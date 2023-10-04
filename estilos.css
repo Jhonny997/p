@@ -201,3 +201,10 @@ footer {
     color: #7cc2ff;
     margin-bottom: 20px;
 }
+
+.container-contatos .icone{
+    transition: 0.5s;
+}
+.container-contatos .icone:hover{
+    transform: rotateZ(360deg);
+}

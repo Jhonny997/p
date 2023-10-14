@@ -10,7 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /*background: linear-gradient(45deg, #9ad751, #2196f3);*/
     background: #181629;
 }
 
@@ -34,7 +33,6 @@ h1 {
     position: relative;
     width: 280px;
     height: 280px;
-    /*background: rgba(0, 0, 0, 0.1);*/
     display: flex;
     justify-content: center;
     align-items: center;
